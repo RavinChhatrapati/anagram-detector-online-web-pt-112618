@@ -6,7 +6,8 @@ def initialization(word)
 end
 def search(arrayofwords)
   arrayofwords.select do |element|
-
+  (@word.split("").sort) == (element.split("").sort)
+    
 end
 
 end
