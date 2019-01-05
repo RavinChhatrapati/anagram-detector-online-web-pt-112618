@@ -6,7 +6,7 @@ def initialization(word)
 end
 def search(arrayofwords)
   arrayofwords.select do |element|
-    
+
 end
 
 end
