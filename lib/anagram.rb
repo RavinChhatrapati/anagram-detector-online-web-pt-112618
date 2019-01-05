@@ -4,7 +4,9 @@ attr_accessor :word
 def initialization(word)
   @word = word
 end
-def search
+def search(arrayofwords)
+  arrayofwords.select do |element|
+    
 
 end
 
